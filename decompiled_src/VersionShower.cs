@@ -1,0 +1,17 @@
+using TMPro;
+using UnityEngine;
+
+public class VersionShower : MonoBehaviour
+{
+	public TextMeshPro text;
+
+	public void Start()
+	{
+		throw null;
+	}
+
+	public VersionShower()
+	{
+		throw null;
+	}
+}

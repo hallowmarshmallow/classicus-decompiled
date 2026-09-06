@@ -1,0 +1,27 @@
+public enum SubmergedTaskTypes
+{
+	PlugLeaks = 128,
+	SpotWhaleShark = 129,
+	MicrowaveLunch = 130,
+	ReshelveBooks = 131,
+	RecordNavBeaconData = 132,
+	MopPuddles = 133,
+	OxygenateSeaPlants = 134,
+	ClearUrchins = 135,
+	ShootDepthCharges = 136,
+	DiagnoseElevators = 137,
+	PurchaseBreakfast = 139,
+	ReconnectPiping = 140,
+	CleanGlass = 141,
+	IdentifySpecimen = 142,
+	StartSubmersible = 143,
+	TrackMantaRay = 144,
+	DispenseWater = 145,
+	SteadyHeartbeat = 146,
+	FeedPetFish = 147,
+	SortScubaGear = 148,
+	CycleReactor = 149,
+	ResetBreakers = 150,
+	LocateVolcanicActivity = 151,
+	RetrieveOxygenMask = 152
+}

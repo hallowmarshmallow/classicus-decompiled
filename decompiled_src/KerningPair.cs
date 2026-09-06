@@ -1,0 +1,16 @@
+using System;
+
+[Serializable]
+public class KerningPair
+{
+	public char First;
+
+	public char Second;
+
+	public int Pixels;
+
+	public KerningPair()
+	{
+		throw null;
+	}
+}

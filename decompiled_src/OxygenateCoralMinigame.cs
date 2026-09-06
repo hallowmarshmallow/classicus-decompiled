@@ -1,0 +1,139 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class OxygenateCoralMinigame : Minigame
+{
+	[Serializable]
+	private sealed class _003C_003Ec
+	{
+		public static readonly _003C_003Ec _003C_003E9;
+
+		public static Func<Transform, (Sprite, PolygonCollider2D)> _003C_003E9__15_0;
+
+		static _003C_003Ec()
+		{
+			throw null;
+		}
+
+		public _003C_003Ec()
+		{
+			throw null;
+		}
+
+		internal (Sprite, PolygonCollider2D) _003CStart_003Eb__15_0(Transform t)
+		{
+			throw null;
+		}
+	}
+
+	private const float PROBABILITY = 0.25f;
+
+	private const float BUBBLE_FORCE_MODIFIER = 1f;
+
+	private static readonly int _hsvaAdjust;
+
+	public Transform[] colorSpriteSets;
+
+	public Transform mazeCells;
+
+	public Transform endCoral;
+
+	private Rigidbody2D _bubbleBody;
+
+	private Vector3 _bubblePos;
+
+	private Transform _bubbleTransform;
+
+	private int[,] _colorMap;
+
+	private Vector2 _inputDelta;
+
+	private Camera _mainCam;
+
+	public CoralCell[,] cells;
+
+	public Dictionary<int, int> colorTranslations;
+
+	public (Sprite, PolygonCollider2D)[] slugs;
+
+	private void Start()
+	{
+		throw null;
+	}
+
+	public void ResetBubble()
+	{
+		throw null;
+	}
+
+	public CoralCell[,] GetDefaultCells()
+	{
+		throw null;
+	}
+
+	public void SetupColors()
+	{
+		throw null;
+	}
+
+	public void GenerateMazeDfsNonRecursive()
+	{
+		throw null;
+	}
+
+	private void Update()
+	{
+		throw null;
+	}
+
+	private void FixedUpdate()
+	{
+		throw null;
+	}
+
+	private static T CopyFrom<T>(Component comp, T other) where T : Component
+	{
+		throw null;
+	}
+
+	private static T CopyComponent<T>(GameObject go, T copyFrom) where T : Component
+	{
+		throw null;
+	}
+
+	private List<(int, int)> GetNeighbours((int, int) position)
+	{
+		throw null;
+	}
+
+	private static bool ValidIndex<T>(T[,] arr, (int, int) pos)
+	{
+		throw null;
+	}
+
+	private static (int, int) GeneratePointAroundPoint((int, int) initialPoint, (int, int) range)
+	{
+		throw null;
+	}
+
+	private List<(int, int)> PathfindBfs(int startX, int startY, int endX, int endY)
+	{
+		throw null;
+	}
+
+	private static bool CheckBounds<T>(T[,] arr, (int, int) pos)
+	{
+		throw null;
+	}
+
+	public OxygenateCoralMinigame()
+	{
+		throw null;
+	}
+
+	static OxygenateCoralMinigame()
+	{
+		throw null;
+	}
+}

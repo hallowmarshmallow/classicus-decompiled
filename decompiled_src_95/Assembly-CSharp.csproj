@@ -1,0 +1,92 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>../cpp2il_dlls_95/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>../cpp2il_dlls_95/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>../cpp2il_dlls_95/Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Core">
+      <HintPath>../cpp2il_dlls_95/Rewired_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.CloudSave">
+      <HintPath>../cpp2il_dlls_95/Unity.Services.CloudSave.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Concentus">
+      <HintPath>../cpp2il_dlls_95/Concentus.dll</HintPath>
+    </Reference>
+    <Reference Include="RNNoise.NET">
+      <HintPath>../cpp2il_dlls_95/RNNoise.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>../cpp2il_dlls_95/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="NativeFilePicker.Runtime">
+      <HintPath>../cpp2il_dlls_95/NativeFilePicker.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

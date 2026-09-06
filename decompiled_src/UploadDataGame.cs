@@ -1,0 +1,413 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Text;
+using PowerTools;
+using TMPro;
+using UnityEngine;
+
+public class UploadDataGame : Minigame
+{
+	private sealed class _003C_003Ec__DisplayClass27_0
+	{
+		public Color gray;
+
+		public MeshRenderer rend2;
+
+		public MeshRenderer rend1;
+
+		public _003C_003Ec__DisplayClass27_0()
+		{
+			throw null;
+		}
+
+		internal void _003CPulseText_003Eb__0(float t)
+		{
+			throw null;
+		}
+
+		internal void _003CPulseText_003Eb__1(float t)
+		{
+			throw null;
+		}
+	}
+
+	private sealed class _003C_003Ec__DisplayClass30_0
+	{
+		public Vector3 pos;
+
+		public UploadDataGame _003C_003E4__this;
+
+		public _003C_003Ec__DisplayClass30_0()
+		{
+			throw null;
+		}
+
+		internal void _003CDoRun_003Eb__0(float t)
+		{
+			throw null;
+		}
+
+		internal void _003CDoRun_003Eb__1(float t)
+		{
+			throw null;
+		}
+	}
+
+	private sealed class _003CDoPercent_003Ed__28 : IEnumerator<object>, IEnumerator, IDisposable
+	{
+		private int _003C_003E1__state;
+
+		private object _003C_003E2__current;
+
+		public UploadDataGame _003C_003E4__this;
+
+		object IEnumerator<object>.Current
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		object IEnumerator.Current
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		public _003CDoPercent_003Ed__28(int _003C_003E1__state)
+		{
+			throw null;
+		}
+
+		void IDisposable.Dispose()
+		{
+			throw null;
+		}
+
+		private bool MoveNext()
+		{
+			throw null;
+		}
+
+		bool IEnumerator.MoveNext()
+		{
+			//ILSpy generated this explicit interface implementation from .override directive in MoveNext
+			return this.MoveNext();
+		}
+
+		void IEnumerator.Reset()
+		{
+			throw null;
+		}
+	}
+
+	private sealed class _003CDoRun_003Ed__30 : IEnumerator<object>, IEnumerator, IDisposable
+	{
+		private int _003C_003E1__state;
+
+		private object _003C_003E2__current;
+
+		public UploadDataGame _003C_003E4__this;
+
+		private _003C_003Ec__DisplayClass30_0 _003C_003E8__1;
+
+		object IEnumerator<object>.Current
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		object IEnumerator.Current
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		public _003CDoRun_003Ed__30(int _003C_003E1__state)
+		{
+			throw null;
+		}
+
+		void IDisposable.Dispose()
+		{
+			throw null;
+		}
+
+		private bool MoveNext()
+		{
+			throw null;
+		}
+
+		bool IEnumerator.MoveNext()
+		{
+			//ILSpy generated this explicit interface implementation from .override directive in MoveNext
+			return this.MoveNext();
+		}
+
+		void IEnumerator.Reset()
+		{
+			throw null;
+		}
+	}
+
+	private sealed class _003CDoText_003Ed__29 : IEnumerator<object>, IEnumerator, IDisposable
+	{
+		private int _003C_003E1__state;
+
+		private object _003C_003E2__current;
+
+		public UploadDataGame _003C_003E4__this;
+
+		private StringBuilder _003Ctxt_003E5__2;
+
+		private int _003Cbaselen_003E5__3;
+
+		private int _003Cmax_003E5__4;
+
+		object IEnumerator<object>.Current
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		object IEnumerator.Current
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		public _003CDoText_003Ed__29(int _003C_003E1__state)
+		{
+			throw null;
+		}
+
+		void IDisposable.Dispose()
+		{
+			throw null;
+		}
+
+		private bool MoveNext()
+		{
+			throw null;
+		}
+
+		bool IEnumerator.MoveNext()
+		{
+			//ILSpy generated this explicit interface implementation from .override directive in MoveNext
+			return this.MoveNext();
+		}
+
+		void IEnumerator.Reset()
+		{
+			throw null;
+		}
+	}
+
+	private sealed class _003CPulseText_003Ed__27 : IEnumerator<object>, IEnumerator, IDisposable
+	{
+		private int _003C_003E1__state;
+
+		private object _003C_003E2__current;
+
+		public UploadDataGame _003C_003E4__this;
+
+		private _003C_003Ec__DisplayClass27_0 _003C_003E8__1;
+
+		object IEnumerator<object>.Current
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		object IEnumerator.Current
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		public _003CPulseText_003Ed__27(int _003C_003E1__state)
+		{
+			throw null;
+		}
+
+		void IDisposable.Dispose()
+		{
+			throw null;
+		}
+
+		private bool MoveNext()
+		{
+			throw null;
+		}
+
+		bool IEnumerator.MoveNext()
+		{
+			//ILSpy generated this explicit interface implementation from .override directive in MoveNext
+			return this.MoveNext();
+		}
+
+		void IEnumerator.Reset()
+		{
+			throw null;
+		}
+	}
+
+	private sealed class _003CTransition_003Ed__26 : IEnumerator<object>, IEnumerator, IDisposable
+	{
+		private int _003C_003E1__state;
+
+		private object _003C_003E2__current;
+
+		public UploadDataGame _003C_003E4__this;
+
+		private float _003Ctarget_003E5__2;
+
+		private float _003Ct_003E5__3;
+
+		object IEnumerator<object>.Current
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		object IEnumerator.Current
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		public _003CTransition_003Ed__26(int _003C_003E1__state)
+		{
+			throw null;
+		}
+
+		void IDisposable.Dispose()
+		{
+			throw null;
+		}
+
+		private bool MoveNext()
+		{
+			throw null;
+		}
+
+		bool IEnumerator.MoveNext()
+		{
+			//ILSpy generated this explicit interface implementation from .override directive in MoveNext
+			return this.MoveNext();
+		}
+
+		void IEnumerator.Reset()
+		{
+			throw null;
+		}
+	}
+
+	public SpriteAnim LeftFolder;
+
+	public SpriteAnim RightFolder;
+
+	public AnimationClip FolderOpen;
+
+	public AnimationClip FolderClose;
+
+	public SpriteRenderer Runner;
+
+	public HorizontalGauge Gauge;
+
+	public TextRenderer PercentText;
+
+	public TextRenderer EstimatedText;
+
+	public TextRenderer SourceText;
+
+	public TextRenderer TargetText;
+
+	public TMP_Text SourceTextTMP;
+
+	public TMP_Text TargetTextTMP;
+
+	public TMP_Text PercentTextTMP;
+
+	public TMP_Text EstimatedTextTMP;
+
+	public SpriteRenderer Button;
+
+	public TMP_Text ButtonLabel;
+
+	public Sprite DownloadImage;
+
+	public GameObject Status;
+
+	public GameObject Tower;
+
+	private int count;
+
+	private float timer;
+
+	public const float RandomChunks = 5f;
+
+	public const float ConstantTime = 3f;
+
+	private bool running;
+
+	public override void Begin(PlayerTask task)
+	{
+		throw null;
+	}
+
+	public void Click()
+	{
+		throw null;
+	}
+
+	private IEnumerator Transition()
+	{
+		throw null;
+	}
+
+	private IEnumerator PulseText()
+	{
+		throw null;
+	}
+
+	private IEnumerator DoPercent()
+	{
+		throw null;
+	}
+
+	private IEnumerator DoText()
+	{
+		throw null;
+	}
+
+	private IEnumerator DoRun()
+	{
+		throw null;
+	}
+
+	public UploadDataGame()
+	{
+		throw null;
+	}
+}

@@ -1,0 +1,27 @@
+using UnityEngine;
+
+public static class PlayerMaterial
+{
+	public static readonly int MaskLayer;
+
+	private static readonly int BackColor;
+
+	private static readonly int BodyColor;
+
+	private static readonly int VisorColor;
+
+	public static void SetColors(int colorId, Renderer rend)
+	{
+		throw null;
+	}
+
+	public static void SetColors(Color color, Renderer rend)
+	{
+		throw null;
+	}
+
+	static PlayerMaterial()
+	{
+		throw null;
+	}
+}

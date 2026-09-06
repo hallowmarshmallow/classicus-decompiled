@@ -1,0 +1,10 @@
+public enum KillAnimType
+{
+	Stab = 0,
+	Tongue = 1,
+	Shoot = 2,
+	Neck = 3,
+	RHM = 4,
+	CG5 = 5,
+	None = 9999
+}

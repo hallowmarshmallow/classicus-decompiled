@@ -1,0 +1,20 @@
+public enum KeybindAction
+{
+	MoveUp,
+	MoveRight,
+	MoveLeft,
+	MoveDown,
+	MoveUpAlt,
+	MoveRightAlt,
+	MoveLeftAlt,
+	MoveDownAlt,
+	Kill,
+	Use,
+	UseAlt,
+	Report,
+	Map,
+	Sabotage,
+	Vent,
+	OpenChat,
+	ToggleMic
+}
