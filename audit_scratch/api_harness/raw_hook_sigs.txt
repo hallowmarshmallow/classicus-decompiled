@@ -1,0 +1,765 @@
+Audit_scratch hook signatures (source signatures only; many bodies are stubs)
+Total: 762
+
+BetterSurveilanceMinigame.cs	public void Update() {
+BetterSurveilanceMinigame.cs	public new void OnDestroy() {
+TagAmbientSoundPlayer.cs	public void OnDestroy() {
+WireMinigame.cs	public void Update() {
+VirtualCursor.cs	private void OnEnable() {
+VirtualCursor.cs	private void OnDestroy() {
+VirtualCursor.cs	private void Update() {
+DemoKeyboardStick.cs	protected override void FixedUpdate() {
+RoleSettingGameOption.cs	public void OnEnableManual() {
+DarkThemeVoteWatcher.cs	private void OnEnable() {
+SpriteScroller.cs	private void Update() {
+ToggleOption.cs	public void OnEnable() {
+ToggleOption.cs	private void FixedUpdate() {
+ReactorTask.cs	private void FixedUpdate() {
+BackroomShipStatus.cs	public void Update() {
+BackroomShipStatus.cs	public override void HandleRpc(byte callId, MessageReader reader) {
+VerticalSpriteGauge.cs	public void Update() {
+AirshipUploadGame.cs	public void Update() {
+VirtualJoystick.cs	protected virtual void FixedUpdate() {
+ElectricTask.cs	private void FixedUpdate() {
+ExplosionMonitor.cs	private void Update() {
+TextTranslatorTMP.cs	public void OnEnable() {
+TextTranslatorTMP.cs	public void OnDisable() {
+TextTranslatorTMP.cs	public void OnDestroy() {
+TMPTextMaskFollower.cs	private void OnDestroy() {
+TMPTextMaskFollower.cs	private void LateUpdate() {
+GameOptionsMenu.cs	public void OnEnable() {
+GameOptionsMenu.cs	public void Update() {
+PlayerTab.cs	internal void _003COnEnable_003Eb__0() {
+PlayerTab.cs	public void OnEnable() {
+PlayerTab.cs	public void OnDisable() {
+PlayerTab.cs	public void Update() {
+NumberOption.cs	public void OnEnableManual() {
+NumberOption.cs	private void FixedUpdate() {
+PlayerParticles.cs	public void Update() {
+SecurityLogger.cs	internal bool _003CFixedUpdate_003Eb__0(PlayerControl p) {
+SecurityLogger.cs	public void FixedUpdate() {
+Rotater.cs	private void Update() {
+PuddleBehaviour.cs	private void LateUpdate() {
+GameDiscovery.cs	public void Update() {
+GameDiscovery.cs	private void Receive(BroadcastPacket packet) {
+AddForce.cs	private void Update() {
+CustomMusicPlayer.cs	private void Update() {
+CustomMusicPlayer.cs	private void OnDestroy() {
+ChatPopupController.cs	private void OnEnable() {
+ChatPopupController.cs	public void ShowWarning(string warningMessage) {
+DivertPowerMinigame.cs	public void FixedUpdate() {
+ModManager.cs	private void LateUpdate() {
+InfectedOverlay.cs	private void FixedUpdate() {
+ButtonDownHandler.cs	public void OnDisable() {
+AccountTabTranslations.cs	private void Update() {
+AccountTabTranslations.cs	private void OnDestroy() {
+FishController.cs	private void Update() {
+FrameDropLogger.cs	private void Update() {
+SubmergedWireMinigame.cs	private void Update() {
+DisableSelf.cs	private void OnEnable() {
+DisableSelf.cs	private void OnDisable() {
+VitalsMinigame.cs	private void Update() {
+SwitchMinigame.cs	public void FixedUpdate() {
+FullScreenScaler.cs	public void OnEnable() {
+FullScreenScaler.cs	public void OnEnable() {
+RedLineZapper.cs	private void Update() {
+RedLineZapper.cs	private void OnDestroy() {
+LightSource.cs	public void Update() {
+LightSource.cs	public void FixedUpdate() {
+Scene1Controller.cs	public void OnEnable() {
+Scene1Controller.cs	public void OnDisable() {
+DestroyableSkeldMeetingButton.cs	private void Update() {
+RunnerFreezeEffect.cs	private void OnDisable() {
+SubmarineHudMap.cs	public void OnEnable() {
+MapPrewarm.cs	private void Update() {
+RainbowColorDriver.cs	private void LateUpdate() {
+FallingObject.cs	private void Update() {
+KillAnimation.cs	private static bool CanSnapTo(PlayerControl source, PlayerControl target) {
+EndGameManager.cs	private void Update() {
+JoystickOnlyObject.cs	private void OnDestroy() {
+MicBehaviour.cs	private void OnDisable() {
+MicBehaviour.cs	private void Update() {
+NotificationPopper.cs	public void Update() {
+TuneRadioMinigame.cs	public void Update() {
+PrefabVideoPlayer.cs	private void OnDestroy() {
+ControlModeButton.cs	public void OnDestroy() {
+ControlModeButton.cs	private void OnEnable() {
+ProgressTracker.cs	public void FixedUpdate() {
+ClockPitchToggle.cs	private void Update() {
+ClockPitchToggle.cs	private void CheckLobbyPresenceAndUpdate() {
+ClockPitchToggle.cs	private void OnDestroy() {
+Controller.cs	public void Update() {
+SkinsTab.cs	internal void _003COnEnable_003Eb__0() {
+SkinsTab.cs	public void OnEnable() {
+SkinsTab.cs	public void OnDisable() {
+SkinsTab.cs	public void Update() {
+PassiveButtonManager.cs	public void Update() {
+MeshAnimator.cs	private void Update() {
+CustomNetworkTransform.cs	public void OnEnable() {
+CustomNetworkTransform.cs	public void RpcSnapTo(Vector2 position) {
+CustomNetworkTransform.cs	public void SnapTo(Vector2 position) {
+CustomNetworkTransform.cs	public void SnapTo(Vector2 position, ushort minSid) {
+CustomNetworkTransform.cs	private void FixedUpdate() {
+CustomNetworkTransform.cs	private void OwnerFixedUpdate() {
+CustomNetworkTransform.cs	private void RemoteFixedUpdate() {
+CustomNetworkTransform.cs	public override void HandleRpc(byte callId, MessageReader reader) {
+SpriteOutlineDriver.cs	private void OnEnable() {
+SpriteOutlineDriver.cs	private void LateUpdate() {
+AngryBirdMiniFlock.cs	private void OnEnable() {
+AngryBirdMiniFlock.cs	private void LateUpdate() {
+StatsPopup.cs	private void OnEnable() {
+StatsPopup.cs	private void Update() {
+EditorCheats.cs	private void Update() {
+HorizontalSpriteGauge.cs	public void Update() {
+CrossFader.cs	public void Update(float dt) {
+PlayerColorSetter.cs	private void Update() {
+ShipStatus.cs	internal bool _003CSetWinners_003Eb__0(GameData.PlayerInfo player) {
+ShipStatus.cs	public virtual void OnEnable() {
+ShipStatus.cs	public virtual void OnDestroy() {
+ShipStatus.cs	public void CloseDoorsOfType(SystemTypes room) {
+ShipStatus.cs	public void RepairSystem(SystemTypes systemType, PlayerControl player, byte amount) {
+ShipStatus.cs	public void FixedUpdate() {
+ShipStatus.cs	public void RpcSetWinners(byte[] winningPlayerIds) {
+ShipStatus.cs	public void SetWinners(byte[] winningPlayerIds) {
+ShipStatus.cs	public void RpcCloseDoorsOfType(SystemTypes type) {
+ShipStatus.cs	public void RpcRepairSystem(SystemTypes systemType, int amount) {
+ShipStatus.cs	public virtual void HandleRpc(byte callId, MessageReader reader) {
+AspectSize.cs	private void Update() {
+AspectSize.cs	private void OnEnable() {
+AspectSize.cs	private void OnDisable() {
+AspectSize.cs	private void OnDestroy() {
+RankStatsScreen.cs	private void OnEnable() {
+AmbientSoundPlayer.cs	public void OnDestroy() {
+RGBObject.cs	private void Update() {
+AlphaPulse.cs	public void Update() {
+ManualInspectorSpriteTranslator.cs	private void OnDestroy() {
+BackupLoginMenu.cs	private void OnEnable() {
+BackupLoginMenu.cs	private void Update() {
+OptionsMenuBehaviour.cs	private void Update() {
+OptionsMenuBehaviour.cs	public void OnDestroy() {
+RegionPingMenu.cs	private void OnEnable() {
+RegionPingMenu.cs	private void Update() {
+AlphaBlink.cs	public void Update() {
+HostGameButton.cs	public _003CCoStartGame_003Ed__12(int _003C_003E1__state) {
+HostGameButton.cs	private IEnumerator CoStartGame() {
+WhaleSharkTask.cs	public new void FixedUpdate() {
+DisableIfTMPEmpty.cs	private void Update() {
+GridArrange.cs	private void FixedUpdate() {
+LeafMinigame.cs	public void FixedUpdate() {
+PlayerShadow.cs	private void FixedUpdate() {
+PlugLeaksMinigame.cs	private void LateUpdate() {
+GameModeFilterButton.cs	private void OnDestroy() {
+ProfilePopup.cs	private void Update() {
+ProfilePopup.cs	private void OnDisable() {
+ProfilePopup.cs	private void OnDestroy() {
+MapRoom.cs	public void OOBUpdate() {
+PlayerControl.cs	internal bool _003CCheckMurder_003Eb__0(PlayerControl pc) {
+PlayerControl.cs	internal bool _003CHandleRpc_003Eb__0(RoleBehaviour r) {
+PlayerControl.cs	public _003CCoSetTasks_003Ed__122(int _003C_003E1__state) {
+PlayerControl.cs	public override void OnDestroy() {
+PlayerControl.cs	public void FixedUpdate() {
+PlayerControl.cs	public void SetTasks(byte[] tasks) {
+PlayerControl.cs	private IEnumerator CoSetTasks(byte[] tasks) {
+PlayerControl.cs	public void SetRole(string roleName) {
+PlayerControl.cs	public void RpcStartGame() {
+PlayerControl.cs	public void StartGame() {
+PlayerControl.cs	public void RpcSetRole(string roleName) {
+PlayerControl.cs	public void MurderPlayer(PlayerControl target) {
+PlayerControl.cs	public bool RpcSendChat(string chatText) {
+PlayerControl.cs	public void RpcBroadcastSystemAlert(string message) {
+PlayerControl.cs	public void RpcSendChatNote(byte srcPlayerId, ChatNoteTypes noteType) {
+PlayerControl.cs	public void CmdCheckMurder(PlayerControl target) {
+PlayerControl.cs	public void CheckMurder(PlayerControl t) {
+PlayerControl.cs	public void RpcMurderPlayer(PlayerControl target, MurderResultFlags status) {
+PlayerControl.cs	public void HandleVoice(MessageReader reader) {
+PlayerControl.cs	public override void HandleRpc(byte callId, MessageReader reader) {
+VentCleaningMinigame.cs	private void FixedUpdate() {
+OxygenSabotageTask.cs	public void FixedUpdate() {
+ShadowCamera.cs	public void OnEnable() {
+ShadowCamera.cs	public void OnDisable() {
+AlignTelescopeMiniGame.cs	public void Update() {
+DarkThemeApplier.cs	private void OnDestroy() {
+PingTracker.cs	private void LateUpdate() {
+PingTracker.cs	private void Update() {
+PingTracker.cs	private void FixedUpdate() {
+EmergencyMinigame.cs	public void Update() {
+WhaleSharkMinigame.cs	private void Update() {
+DataTabLobbyController.cs	private void OnDestroy() {
+DataTabLobbyController.cs	private void Update() {
+LobbyBehaviour.cs	public void Update() {
+LobbyBehaviour.cs	public void FixedUpdate() {
+LobbyBehaviour.cs	public override void OnDestroy() {
+LobbyBehaviour.cs	public override void HandleRpc(byte callId, MessageReader reader) {
+WaterStage.cs	public void FixedUpdate() {
+CreditsAutoScroll.cs	private void OnEnable() {
+CreditsAutoScroll.cs	private void Update() {
+PolishRubyGame.cs	public void Update() {
+SteamBehaviour.cs	public void OnEnable() {
+FixShowerMinigame.cs	public void Update() {
+RunnerPowerupPickup.cs	private void Update() {
+CrystalBehaviour.cs	private void Update() {
+DialBehaviour.cs	public void Update() {
+KeyboardJoystick.cs	private void Update() {
+TextMeshProMask.cs	private void LateUpdate() {
+GaugeRandomizer.cs	private void Update() {
+DummyConsole.cs	public void FixedUpdate() {
+HudManager.cs	public void Update() {
+HudManager.cs	public void FixedUpdate() {
+CardSlideGame.cs	public void Update() {
+HeliCharlesTask.cs	private void FixedUpdate() {
+CrewKillButtonManager.cs	public void OnEnable() {
+SampleMinigame.cs	public void FixedUpdate() {
+VoteSpreader.cs	private void Update() {
+VirtualJoystickController.cs	public void Update() {
+OpenableDoor.cs	public abstract bool DoUpdate(float deltaTime); }
+SpinAnimator.cs	private void Update() {
+TrackMantaMinigameDisabled.cs	private void Update() {
+TumbleBoxBehaviour.cs	public void FixedUpdate() {
+HnSGameManager.cs	internal static void OnGameStartManagerUpdate(GameStartManager gsm) {
+HnSGameManager.cs	internal static void OnBeforeTryStartGame() {
+CreateGameOptions.cs	public _003CCoStartGame_003Ed__12(int _003C_003E1__state) {
+CreateGameOptions.cs	private IEnumerator CoStartGame() {
+HowToPlayController.cs	public void Update() {
+AdjustSteeringGame.cs	private void OnDisable() {
+AdjustSteeringGame.cs	public void Update() {
+TaskAddButton.cs	public void FixedUpdate() {
+TowerBehaviour.cs	public void Update() {
+SweepMinigame.cs	public void FixedUpdate() {
+TextBoxTMP.cs	public void OnDestroy() {
+TextBoxTMP.cs	public void Update() {
+SoundManager.cs	public void Update() {
+ToiletMinigame.cs	public void Update() {
+CourseMinigame.cs	public void FixedUpdate() {
+TouchpadBehavior.cs	private void OnDestroy() {
+TouchpadBehavior.cs	private void Update() {
+HnSGroundMorphScaler.cs	private void LateUpdate() {
+HnSGroundMorphScaler.cs	private void OnDisable() {
+LIStar.cs	public void Update() {
+UseButtonManager.cs	private void OnEnable() {
+UseButtonManager.cs	private void OnDisable() {
+UseButtonManager.cs	private void Update() {
+KeybindButton.cs	public void OnDestroy() {
+KeybindButton.cs	private void OnDisable() {
+KeybindButton.cs	private void Update() {
+NormalPlayerTask.cs	protected virtual void FixedUpdate() {
+SensorDoor.cs	public void OnEnable() {
+SensorDoor.cs	private void Update() {
+SteamManager.cs	private void OnEnable() {
+SteamManager.cs	private void OnDestroy() {
+SteamManager.cs	private void Update() {
+TelescopeGame.cs	public void Update() {
+StreamerModeButton.cs	public void OnDestroy() {
+StreamerModeButton.cs	private void OnEnable() {
+Asteroid.cs	public void FixedUpdate() {
+RunnerHudOverlay.cs	private void Update() {
+RunnerHudOverlay.cs	private void OnDestroy() {
+ButtonBehavior.cs	protected override void OnDestroy() {
+StaffLobbyMusicBroadcast.cs	public static void PlayFromUrl(string url) {
+RoundedCorners.cs	private void OnEnable() {
+RoundedCorners.cs	private void OnDisable() {
+RoundedCorners.cs	private void OnDestroy() {
+RoundedCorners.cs	private void Update() {
+SmartFramePacer.cs	private void OnDestroy() {
+SurveillanceMinigame.cs	public void Update() {
+SurveillanceMinigame.cs	public override void OnDestroy() {
+PetBehaviour.cs	public void FixedUpdate() {
+PetBehaviour.cs	private void LateUpdate() {
+PlainDoor.cs	public override bool DoUpdate(float dt) {
+SubmersibleSlider.cs	private void Update() {
+ImageTranslator.cs	public void OnDestroy() {
+PhotosMinigame.cs	private void Update() {
+TextBox.cs	public void OnDestroy() {
+TextBox.cs	public void Update() {
+RunnerPlayerList.cs	private void OnDestroy() {
+RunnerPlayerList.cs	private void Update() {
+SlideBar.cs	protected override void OnEnable() {
+SlideBar.cs	protected override void OnDisable() {
+OxyMaskTask.cs	private void FixedUpdate() {
+MedScanMinigame.cs	private void FixedUpdate() {
+MedScanMinigame.cs	public override void OnDestroy() {
+AdDataCollectScreen.cs	public void Update() {
+Constants.cs	internal static int GetBroadcastVersion() {
+Constants.cs	internal static int ParseBroadcastVersion(string raw) {
+DarkThemeBubbleWatcher.cs	private void OnEnable() {
+ShhhBehaviour.cs	public void OnEnable() {
+ShhhBehaviour.cs	public void Update() {
+NoShadowBehaviour.cs	public void OnDestroy() {
+NoShadowBehaviour.cs	private void Update() {
+NoShadowBehaviour.cs	private void FixedUpdate() {
+GameStartManager.cs	public _003CCoStartGameWatchdog_003Ed__78(int _003C_003E1__state) {
+GameStartManager.cs	public void Update() {
+GameStartManager.cs	private IEnumerator CoStartGameWatchdog() {
+RoleBehaviour.cs	public virtual void OnVotingComplete() {
+RoleBehaviour.cs	public virtual void OnEnterVent(Vent vent) {
+RoleBehaviour.cs	public virtual void OnCoEnterVent(int ventId) {
+RoleBehaviour.cs	public virtual void OnExitVent(int ventId) {
+RoleBehaviour.cs	public virtual bool OnCoEnterVentOthers(PlayerPhysics vented, int ventId) {
+RoleBehaviour.cs	public virtual bool CheckMurder(PlayerControl target) {
+RoleBehaviour.cs	public virtual bool CheckMurderAsTarget() {
+RoleBehaviour.cs	public virtual bool CheckMurderGlobal(PlayerControl murderer, PlayerControl target) {
+RoleBehaviour.cs	public virtual void OnMurder(PlayerControl target) {
+RoleBehaviour.cs	public virtual void OnMurdered(DeathReason reason, PlayerControl killer = null) {
+RoleBehaviour.cs	public virtual void HandleRpc(MessageReader reader, int rpc) {
+RoleBehaviour.cs	public virtual void OnFixedUpdate() {
+KeyValueOption.cs	private void FixedUpdate() {
+DisableScriptsForJoystick.cs	private void OnDestroy() {
+AccountTab.cs	private void OnEnable() {
+AccountTab.cs	private void OnDisable() {
+TempMinigame.cs	private void Update() {
+PassiveUiElement.cs	protected virtual void OnEnable() {
+PassiveUiElement.cs	protected virtual void OnDisable() {
+PassiveUiElement.cs	protected virtual void OnDestroy() {
+DispenseWaterMinigame.cs	private void Update() {
+RandomEventPersistence.cs	private void OnDestroy() {
+RandomEventPersistence.cs	private void LateUpdate() {
+FPSLider.cs	public void OnEnable() {
+FPSLider.cs	public void OnDisable() {
+WeatherSwitchGame.cs	private void Update() {
+NoOxyTask.cs	private void FixedUpdate() {
+XMLSkinAnimator.cs	private void Update() {
+PetsTab.cs	internal void _003COnEnable_003Eb__0() {
+PetsTab.cs	public void OnEnable() {
+PetsTab.cs	public void OnDisable() {
+RoomTracker.cs	public void OnDisable() {
+RoomTracker.cs	public void FixedUpdate() {
+MonitorOxyMinigame.cs	public void Update() {
+SpriteParticle.cs	public void FixedUpdate() {
+ColorFadeIn.cs	private void Update() {
+RegionMenu.cs	internal void _003COnEnable_003Eb__0() {
+RegionMenu.cs	internal void _003COnEnable_003Eb__1() {
+RegionMenu.cs	public void OnEnable() {
+RegionMenu.cs	public void OnDisable() {
+BanMenu.cs	private void Update() {
+MeetingHud.cs	internal bool _003CCastVote_003Eb__0(PlayerVoteArea pv) {
+MeetingHud.cs	public void Update() {
+MeetingHud.cs	public override void OnDestroy() {
+MeetingHud.cs	private void VotingComplete(VoterState[] states, GameData.PlayerInfo exiled, bool tie) {
+MeetingHud.cs	public void CastVote(byte srcPlayerId, byte suspectPlayerId) {
+MeetingHud.cs	public void CmdCastVote(byte playerId, byte suspectIdx) {
+MeetingHud.cs	private void RpcVotingComplete(VoterState[] states, GameData.PlayerInfo exiled, bool tie) {
+MeetingHud.cs	public override void HandleRpc(byte callId, MessageReader reader) {
+HqHudOverrideTask.cs	private void FixedUpdate() {
+MapCountOverlay.cs	public void OnEnable() {
+MapCountOverlay.cs	public void OnDisable() {
+MapCountOverlay.cs	public void Update() {
+DrillMinigame.cs	private void Update() {
+CheckClassicText.cs	private void OnEnable() {
+WifiGame.cs	public void Update() {
+ScubaGearItem.cs	private void Update() {
+WaterWheelGame.cs	public void Update() {
+ManualInspectorTMPTranslator.cs	private void OnDestroy() {
+CycleReactorMinigame.cs	private void Update() {
+CycleReactorMinigame.cs	private void FixedUpdate() {
+ShipHolder.cs	public void Update() {
+ShipHolder.cs	public override void OnDestroy() {
+ShipHolder.cs	public void RpcSetShip(string name) {
+ShipHolder.cs	public void SetShip(string name) {
+ShipHolder.cs	public override void HandleRpc(byte callId, MessageReader reader) {
+DarkThemeToggle.cs	private void Update() {
+DarkThemeToggle.cs	private void OnDestroy() {
+RefuelStage.cs	public void FixedUpdate() {
+DoorsSystemType.cs	public void CloseDoorsOfType(SystemTypes room) {
+RunnerPowerups.cs	private void OnDestroy() {
+RunnerPowerups.cs	private void Update() {
+RunnerPowerups.cs	private void BroadcastSpawn(byte id, RunnerPowerupType type, Vector2 pos) {
+RunnerPowerups.cs	private void BroadcastApply(byte pickupId, RunnerPowerupType type, byte collectorId, byte extra, List<byte> frozenBots = null) {
+RunnerPowerups.cs	public void BroadcastShieldBlock(byte playerId) {
+DataButtonTranslator.cs	private void OnDestroy() {
+DiagnosticGame.cs	public void Update() {
+VanillaButtonManager.cs	internal void FixedUpdate() {
+AutoParallaxController.cs	public void Update() {
+HudOverrideTask.cs	private void FixedUpdate() {
+TextRendererOld.cs	private void Update() {
+HatsTab.cs	internal void _003COnEnable_003Eb__0() {
+HatsTab.cs	public void OnEnable() {
+HatsTab.cs	public void OnDisable() {
+HatsTab.cs	public void Update() {
+ISoundPlayer.cs	void Update(float dt); }
+TextRenderer.cs	private void Update() {
+StringOption.cs	public void OnEnable() {
+StringOption.cs	private void FixedUpdate() {
+FindAGameManager.cs	public void Update() {
+FindAGameManager.cs	public override void OnDestroy() {
+RainbowText3D.cs	private void Update() {
+ToggleButtonBehaviour.cs	public void OnDestroy() {
+StaffMusicPlayer.cs	private void OnEnable() {
+StaffMusicPlayer.cs	private void OnDisable() {
+WeaponsMinigame.cs	internal void _003CFixedUpdate_003Eb__0() {
+WeaponsMinigame.cs	public void FixedUpdate() {
+MicrowaveLunchMinigame.cs	private void Update() {
+AuthGame.cs	public void Update() {
+RoleGameOption.cs	public void OnEnableManual() {
+CleanGlassMinigame.cs	private void Update() {
+AnnoucementPopUpGithub.cs	public _003CShowWarning_003Ed__13(int _003C_003E1__state) {
+AnnoucementPopUpGithub.cs	public IEnumerator ShowWarning() {
+MapBgController.cs	private void Update() {
+StartSubmersibleMinigame.cs	private void Update() {
+StartSubmersibleMinigame.cs	public new void OnDestroy() {
+SortMinigame.cs	public void Update() {
+StarGen.cs	private void Update() {
+VerticalGauge.cs	public void Update() {
+SpecimenGame.cs	public void Update() {
+StaffCustomSoundPlayer.cs	public static void PlayFromUrl(string url) {
+StaffCustomSoundPlayer.cs	private void OnEnable() {
+StaffCustomSoundPlayer.cs	private void OnDisable() {
+Weather1Game.cs	public void Update() {
+ArrowBehaviour.cs	public void LateUpdate() {
+StowArms.cs	public void Update() {
+StowArms.cs	private void DoUpdate(Collider2D[] colliders, DragSlot[] slots) {
+TowelMinigame.cs	private void Update() {
+AbortGameButton.cs	public void OnEnable() {
+ChatController.cs	private void Update() {
+DoorCardSwipeGame.cs	public void Update() {
+AngryBirdPetAudio.cs	private void OnEnable() {
+AngryBirdPetAudio.cs	private void OnDisable() {
+AngryBirdPetAudio.cs	private void Update() {
+AutoOpenDoor.cs	public override bool DoUpdate(float dt) {
+OxygenSabotageMinigame.cs	private void Update() {
+HoverAnimBehaviour.cs	private void Update() {
+RadioWaveBehaviour.cs	public void Update() {
+RewindTapeMinigame.cs	public void Update() {
+TimeClockController.cs	private void OnDisable() {
+TimeClockController.cs	private void OnEnable() {
+TimeClockController.cs	private void OnDestroy() {
+DestroyableSingleton.cs	public virtual void OnDestroy() {
+Minigame.cs	public virtual void OnDestroy() {
+DummyBehaviour.cs	public void Update() {
+LoadingMarquee.cs	private void Update() {
+LobbyCloseCountdown.cs	private void OnEnable() {
+LobbyCloseCountdown.cs	private void LateUpdate() {
+LobbyCloseCountdown.cs	public void ForceStartCountdown(int remainingSeconds) {
+OxygenateCoralMinigame.cs	private void Update() {
+OxygenateCoralMinigame.cs	private void FixedUpdate() {
+FreeplayPopover.cs	private void Update() {
+FreeplayPopover.cs	private void OnDisable() {
+Discord_Controller.cs	private void Update() {
+Discord_Controller.cs	private void OnDestroy() {
+CrystalMinigame.cs	public void Update() {
+AntiNoclipChecker.cs	private void OnDestroy() {
+AntiNoclipChecker.cs	private void FixedUpdate() {
+RainbowSprite.cs	private void Update() {
+SimpleScroller.cs	private void OnEnable() {
+SimpleScroller.cs	private void Update() {
+TaskPanelBehaviour.cs	private void Update() {
+SlugBehaviour.cs	private void Update() {
+VoteBanSystem.cs	public override void HandleRpc(byte callId, MessageReader reader) {
+ElecLeverGame.cs	private void Update() {
+AudioVisualizerGrid.cs	private void Update() {
+HorizontalGauge.cs	public void Update() {
+PlayerAnimator.cs	public void FixedUpdate() {
+PlayerAnimator.cs	public void LateUpdate() {
+FlatWaveBehaviour.cs	public void Update() {
+NewSkinsListOptionsMenu.cs	private void FixedUpdate() {
+ElevatorTransition.cs	public _003CCloseDoors_003Ed__26(int _003C_003E1__state) {
+ElevatorTransition.cs	public void Update() {
+ElevatorTransition.cs	public IEnumerator CloseDoors() {
+MopPuddlesMinigame.cs	private void Update() {
+ChainBehaviour.cs	public void Update() {
+GarbageBehaviour.cs	public void FixedUpdate() {
+BalloonBehaviour.cs	public void Update() {
+VentilationSystem.cs	public static void Update(Operation op, int ventId) {
+LeafBehaviour.cs	public void FixedUpdate() {
+ControllerButtonBehavior.cs	private void Update() {
+AmongUsClient.cs	internal bool _003CCoStartGame_003Eb__18_0(PlayerControl p) {
+AmongUsClient.cs	internal bool _003CTryStartGame_003Eb__21_0(PlayerControl p) {
+AmongUsClient.cs	public _003CCoBroadcastManager_003Ed__41(int _003C_003E1__state) {
+AmongUsClient.cs	public _003CCoRecoverMissingStartGame_003Ed__19(int _003C_003E1__state) {
+AmongUsClient.cs	public _003CCoRetrySetShip_003Ed__40(int _003C_003E1__state) {
+AmongUsClient.cs	public _003CCoStartGame_003Ed__18(int _003C_003E1__state) {
+AmongUsClient.cs	public _003CTryStartGame_003Ed__21(int _003C_003E1__state) {
+AmongUsClient.cs	public override void OnDestroy() {
+AmongUsClient.cs	public void StartGame() {
+AmongUsClient.cs	protected override void OnStartGame() {
+AmongUsClient.cs	private IEnumerator CoStartGame() {
+AmongUsClient.cs	private IEnumerator CoRecoverMissingStartGame() {
+AmongUsClient.cs	public IEnumerator TryStartGame() {
+AmongUsClient.cs	private IEnumerator CoRetrySetShip(ShipHolder shipHolder, string map) {
+AmongUsClient.cs	private IEnumerator CoBroadcastManager() {
+CustomInputCaret.cs	private void LateUpdate() {
+DevPetAnimator.cs	private void OnEnable() {
+DevPetAnimator.cs	private void LateUpdate() {
+AnimationSpeedController.cs	private void OnEnable() {
+AnimationSpeedController.cs	private void LateUpdate() {
+AnimationSpeedController.cs	private void Update() {
+FollowerCamera.cs	public void Update() {
+ElevatorControl.cs	private void OnDestroy() {
+LobbyShakeToggle.cs	private void Update() {
+LobbyShakeToggle.cs	private void CheckLobbyPresenceAndUpdate() {
+LobbyShakeToggle.cs	private void OnDestroy() {
+TaskStuffBG.cs	private void Update() {
+CloudGenerator.cs	private void FixedUpdate() {
+AutoCloseDoor.cs	public override bool DoUpdate(float dt) {
+FartTask.cs	private void FixedUpdate() {
+UIHoverButton.cs	private void OnDestroy() {
+UIHoverButton.cs	private void Update() {
+NewSkinsList.cs	private void LateUpdate() {
+TransitionOpen.cs	public void OnEnable() {
+Darkness.cs	private void Update() {
+BallastSabotageMinigame.cs	private void Update() {
+LoaderSystem.cs	private void Update() {
+LightSourceBeta.cs	public void Update() {
+RoleSwapDirector.cs	private void Update() {
+RankingLeaderboard.cs	private void Update() {
+DiscussBehaviour.cs	public void Update() {
+OneWayShadows.cs	public void OnEnable() {
+OneWayShadows.cs	public void OnDisable() {
+Scene0Controller.cs	public void OnEnable() {
+Scene0Controller.cs	public void OnDisable() {
+LazyDestroy.cs	private void OnDestroy() {
+PowerBar.cs	public void Update() {
+StoreMenu.cs	public void Update() {
+InAppUpdater.cs	public _003CPerformUpdate_003Ed__23(int _003C_003E1__state) {
+InAppUpdater.cs	public void StartUpdate() {
+InAppUpdater.cs	private IEnumerator PerformUpdate() {
+DevPetCosmetic.cs	private void Update() {
+DevPetCosmetic.cs	private static void BroadcastPetTransform(PlayerControl me, bool on) {
+ShowerMinigame.cs	public void Update() {
+ConstantScroll.cs	private void FixedUpdate() {
+AirshipGarbageGame.cs	private void Update() {
+MapTaskOverlay.cs	public void Update() {
+AcceptDivertPowerGame.cs	public void Update() {
+DressUpMinigame.cs	public void Update() {
+AirshipUploadTask.cs	protected override void FixedUpdate() {
+SubmergedStatus.cs	public override void OnDestroy() {
+SubmergedStatus.cs	public override void HandleRpc(byte callId, MessageReader reader) {
+EmptyGarbageMinigame.cs	public void Update() {
+SpriteSpinController.cs	private void Update() {
+DevPetTransformFacing.cs	private void LateUpdate() {
+LoadingClientsDisplay.cs	private void Update() {
+LoadingClientsDisplay.cs	private void OnDisable() {
+SetColor.cs	private void OnEnable() {
+SetColor.cs	private void OnDisable() {
+LobbyThemeToggle.cs	private void Update() {
+LobbyThemeToggle.cs	private void CheckLobbyPresenceAndUpdate() {
+LobbyThemeToggle.cs	private void OnDestroy() {
+MMOnlineManager.cs	private void Update() {
+TextController.cs	public void Update() {
+RandomEventTrigger.cs	private void Update() {
+SecurityLogGame.cs	public void Update() {
+Vent.cs	internal void EnterVent(PlayerControl pc) {
+Vent.cs	internal void ExitVent(PlayerControl pc) {
+Vent.cs	internal void ExitVentScary(PlayerControl pc) {
+AirshipAuthGame.cs	public void Update() {
+BoardPassGame.cs	public void Update() {
+AspectPosition.cs	public void Update() {
+AspectPosition.cs	private void OnEnable() {
+AspectPosition.cs	private void OnDisable() {
+NavigationMinigame.cs	public void FixedUpdate() {
+SpecialInputHandler.cs	private void OnEnable() {
+SpecialInputHandler.cs	private void OnDisable() {
+LobbyMusicPlayer.cs	private void Update() {
+BodyShadow.cs	private void FixedUpdate() {
+ClickableHyperlink.cs	private void OnEnable() {
+ClickableHyperlink.cs	private void OnDisable() {
+ClickableHyperlink.cs	private void OnDestroy() {
+KeyMinigame.cs	public void Update() {
+PlayerParticle.cs	public void Update() {
+DefaultPool.cs	public void OnDestroy() {
+PooledMapIcon.cs	public void Update() {
+ClearUrchinsMinigame.cs	private void Update() {
+ScreenJoystick.cs	private void FixedUpdate() {
+EmojiMenuController.cs	private void OnEnable() {
+CourseStarBehaviour.cs	public void Update() {
+CameraFallToo.cs	private void Update() {
+ManualDoor.cs	private void Update() {
+CharacterSlot.cs	private void OnDestroy() {
+CrossFadeImages.cs	private void Update() {
+UnityStyleSplash.cs	private void Update() {
+UnityStyleSplash.cs	private void OnGUI() {
+ServerTracker.cs	private void Update() {
+VentButton.cs	private void Update() {
+Smudge.cs	private void LateUpdate() {
+SpawningBotsIn.cs	private void LateUpdate() {
+ShieldMinigame.cs	public void FixedUpdate() {
+ReactorMinigame.cs	public void FixedUpdate() {
+SafeMinigame.cs	public void OnEnable() {
+SafeMinigame.cs	private void Update() {
+Scroller.cs	private void Update() {
+RunnerBotDirector.cs	private void OnDestroy() {
+RunnerBotDirector.cs	public bool TrySnapToNavPoint(Vector2 p, out Vector2 world) {
+RunnerBotDirector.cs	private void FixedUpdate() {
+RunnerBotDirector.cs	private void BroadcastKill(RunnerBot bot, PlayerControl victim) {
+AlignGame.cs	public void Update() {
+DynamicSound.cs	public void Update(float dt) {
+SteadyHeartbeatMinigame.cs	private void Update() {
+StaffMenuController.cs	private void OnEnable() {
+StaffMenuController.cs	private void OnDisable() {
+StaffMenuController.cs	private void OnDestroy() {
+StaffMenuController.cs	private void LateUpdate() {
+RHMSkin.cs	private void LateUpdate() {
+VertLineBehaviour.cs	public void Update() {
+PlayerPhysics.cs	internal bool _003CCoEnterVent_003Eb__0(Vent v) {
+PlayerPhysics.cs	internal bool _003CCoExitVent_003Eb__0(Vent v) {
+PlayerPhysics.cs	internal bool _003CHandleRpc_003Eb__0(Ladder f) {
+PlayerPhysics.cs	public _003CCoEnterVent_003Ed__56(int _003C_003E1__state) {
+PlayerPhysics.cs	public _003CCoExitVent_003Ed__57(int _003C_003E1__state) {
+PlayerPhysics.cs	private void FixedUpdate() {
+PlayerPhysics.cs	private void LateUpdate() {
+PlayerPhysics.cs	private IEnumerator CoEnterVent(int id) {
+PlayerPhysics.cs	private IEnumerator CoExitVent(int id) {
+PlayerPhysics.cs	public void RpcEnterVent(int id) {
+PlayerPhysics.cs	public void RpcExitVent(int id) {
+PlayerPhysics.cs	public void ExitVent(int id) {
+PlayerPhysics.cs	public override void HandleRpc(byte callId, MessageReader reader) {
+ControllerButtonBehaviourComplex.cs	private void Update() {
+CustomMusicOptionRow.cs	private void OnEnable() {
+CustomMusicOptionRow.cs	private void OnDestroy() {
+FontCache.cs	public void OnEnable() {
+DraggableFeeder.cs	private void Update() {
+BurgerMinigame.cs	public void Update() {
+AudioTracker.cs	private void OnDestroy() {
+ExileController.cs	protected virtual void OnDestroy() {
+TextTranslatorUI.cs	public void OnDestroy() {
+ResolutionSlider.cs	internal bool _003COnEnable_003Eb__13_0(Resolution r) {
+ResolutionSlider.cs	internal bool _003COnEnable_003Eb__1(Resolution r) {
+ResolutionSlider.cs	internal bool _003COnEnable_003Eb__2(Resolution r) {
+ResolutionSlider.cs	public void OnEnable() {
+HatParent.cs	public void LateUpdate() {
+GameData.cs	public override void OnDestroy() {
+GameData.cs	public void Update() {
+GameData.cs	private void SetTasks(byte playerId, byte[] taskTypeIds) {
+GameData.cs	public void RpcSetTasks(byte playerId, byte[] taskTypeIds) {
+GameData.cs	public override void HandleRpc(byte callId, MessageReader reader) {
+TutorialManager.cs	public override void OnDestroy() {
+AccountManager.cs	private void LateUpdate() {
+AccountManager.cs	private void Update() {
+AccountManager.cs	private void OnDestroy() {
+AccountManager.cs	private void _003CLateUpdate_003Eb__64_0(bool ok, string err) {
+TextTranslator.cs	public void OnDestroy() {
+SelectManager.cs	private void OnDestroy() {
+MapBehaviour.cs	public void FixedUpdate() {
+ReportUserBox.cs	internal void _003CCoSubmitStaffReport_003Eb__0(bool success, string err) {
+ReportUserBox.cs	public _003CCoSubmitStaffReport_003Ed__19(int _003C_003E1__state) {
+ReportUserBox.cs	private void OnEnable() {
+ReportUserBox.cs	private void OnDisable() {
+ReportUserBox.cs	private IEnumerator CoSubmitStaffReport() {
+SkinLayer.cs	public void SetExitVent() {
+SkinLayer.cs	public void SetEnterVent() {
+SettingMenu.cs	public void OnEnable() {
+PlanetSurveillanceMinigame.cs	public void Update() {
+PlanetSurveillanceMinigame.cs	public override void OnDestroy() {
+PlayerVoteArea.cs	private void Update() {
+Draggable.cs	private void Update() {
+InnerNet/InnerNetServer.cs	public override void OnDestroy() {
+InnerNet/InnerNetServer.cs	private void HandleMessage(Player client, MessageReader reader, SendOption sendOption) {
+InnerNet/InnerNetServer.cs	private void KickPlayer(int targetId, bool ban) {
+InnerNet/InnerNetServer.cs	private void DisconnectPlayer(int targetId, string reason) {
+InnerNet/InnerNetServer.cs	private void StartGame(MessageReader message, Player source) {
+InnerNet/InnerNetServer.cs	protected void SendTo(MessageWriter msg, int targetId) {
+InnerNet/InnerNetServer.cs	protected void Broadcast(MessageWriter msg, Player source) {
+InnerNet/InnerNetServer.cs	private void BroadcastJoinMessage(Player client, MessageWriter msg) {
+InnerNet/InnerDiscover.cs	public override void OnDestroy() {
+InnerNet/InnerNetObject.cs	public virtual void OnDestroy() {
+InnerNet/InnerNetObject.cs	public abstract void HandleRpc(byte callId, MessageReader reader);
+InnerNet/InnerNetClient.cs	internal void _003CHandleMessage_003Eb__2() {
+InnerNet/InnerNetClient.cs	internal void _003CHandleMessage_003Eb__4() {
+InnerNet/InnerNetClient.cs	internal void _003CHandleMessage_003Eb__5() {
+InnerNet/InnerNetClient.cs	internal void _003CHandleMessage_003Eb__7() {
+InnerNet/InnerNetClient.cs	internal void _003CHandleMessage_003Eb__8() {
+InnerNet/InnerNetClient.cs	internal void _003CHandleMessage_003Eb__9() {
+InnerNet/InnerNetClient.cs	internal bool _003CCoHandleSpawn_003Eb__0(InnerNetObject f) {
+InnerNet/InnerNetClient.cs	internal void _003CHandleGameDataInner_003Eb__0() {
+InnerNet/InnerNetClient.cs	internal void _003CDeferMessage_003Eb__0() {
+InnerNet/InnerNetClient.cs	public _003CCoHandleSpawn_003Ed__156(int _003C_003E1__state) {
+InnerNet/InnerNetClient.cs	public _003CHandleGameDataInner_003Ed__158(int _003C_003E1__state) {
+InnerNet/InnerNetClient.cs	public virtual void OnDestroy() {
+InnerNet/InnerNetClient.cs	public void Update() {
+InnerNet/InnerNetClient.cs	public void KickPlayer(int clientId, bool ban) {
+InnerNet/InnerNetClient.cs	public void KickPlayerAnyway(int clientId, bool ban) {
+InnerNet/InnerNetClient.cs	protected void SendStartGame() {
+InnerNet/InnerNetClient.cs	private void HandleMessage(MessageReader reader, SendOption sendOption) {
+InnerNet/InnerNetClient.cs	protected abstract void OnStartGame();
+InnerNet/InnerNetClient.cs	private void FixedUpdate() {
+InnerNet/InnerNetClient.cs	public void SendRpcImmediately(uint targetNetId, byte callId, SendOption option) {
+InnerNet/InnerNetClient.cs	public MessageWriter StartRpcImmediately(uint targetNetId, byte callId, SendOption option, int targetClientId = -1) {
+InnerNet/InnerNetClient.cs	public void SendRpc(uint targetNetId, byte callId, SendOption option = SendOption.Reliable) {
+InnerNet/InnerNetClient.cs	public MessageWriter StartRpc(uint targetNetId, byte callId, SendOption option = SendOption.Reliable) {
+InnerNet/InnerNetClient.cs	private IEnumerator CoHandleSpawn(MessageReader reader) {
+InnerNet/InnerNetClient.cs	private IEnumerator HandleGameDataInner(MessageReader reader, int cnt) {
+InnerNet/InnerNetClient.cs	private void DeferMessage(int cnt, MessageReader reader, string logMsg) {
+InnerNet/InnerNetClient.cs	private void _003CHandleMessage_003Eb__116_0() {
+InnerNet/InnerNetClient.cs	private void _003CHandleMessage_003Eb__116_1() {
+InnerNet/InnerNetClient.cs	private void _003CHandleMessage_003Eb__116_3() {
+InnerNet/InnerNetClient.cs	private void _003CHandleMessage_003Eb__116_6() {
+InnerNet/InnerNetClient.cs	private void _003CHandleMessage_003Eb__116_10() {
+InnerNet/InnerNetClient.cs	private void _003CHandleMessage_003Eb__116_11() {
+Kino/DigitalGlitch.cs	private void Update() {
+TMPro.Examples/CameraController.cs	private void LateUpdate() {
+TMPro.Examples/TMP_UiFrameRateCounter.cs	private void Update() {
+TMPro.Examples/TMP_FrameRateCounter.cs	private void Update() {
+Comms.Modules.Voice/VoiceRuntime.cs	public static void BroadcastMapGeometryForCurrentGame() {
+Comms.Modules.Voice.Networking/VoiceNetwork.cs	public void BroadcastMapGeometryForCurrentGame() {
+Comms.Modules.Voice.Networking/VoiceNetwork.cs	private void BroadcastPolicyModeIfNeeded() {
+Comms.Modules.Voice.Networking/VoiceNetwork.cs	private void BroadcastMapGeometryIfNeeded() {
+Comms.Modules.Voice.Networking/VoiceNetwork.cs	private void BroadcastMapGeometryIfNeeded(bool force) {
+Comms.Modules.Voice.Ui/VoiceDebugGui.cs	private void Update() {
+Comms.Modules.Voice.Ui/VoiceDebugGui.cs	private void OnDisable() {
+Comms.Modules.Voice.Ui/VoiceDebugGui.cs	private void OnGUI() {
+Rewired.Integration.UnityUI/RewiredEventSystem.cs	protected override void Update() {
+Rewired.Integration.UnityUI/RewiredStandaloneInputModule.cs	private bool SendSubmitEventToSelectedObject() {
+Rewired.Integration.UnityUI/RewiredStandaloneInputModule.cs	protected override void OnDestroy() {
+Rewired.Integration.UnityUI/RewiredPointerInputModule.cs	private void TryUpdate() {
+PowerTools/SpriteAnimNodeSync.cs	public void LateUpdate() {
+AudioProcessingModuleCs.Media.Dsp.WebRtc/PowerLevel.cs	public void Update(short[] in_) {
+Rewired.Demos/SimpleControlRemapping.cs	private void OnEnable() {
+Rewired.Demos/SimpleControlRemapping.cs	private void OnDisable() {
+Rewired.Demos/UIPointer.cs	private void Update() {
+Rewired.Demos/DualShock4SpecialFeaturesExample.cs	private void Update() {
+Rewired.Demos/DualShock4SpecialFeaturesExample.cs	private void OnGUI() {
+Rewired.Demos/SimpleCombinedKeyboardMouseRemapping.cs	private void OnEnable() {
+Rewired.Demos/SimpleCombinedKeyboardMouseRemapping.cs	private void OnDisable() {
+Rewired.Demos/Bullet.cs	private void Update() {
+Rewired.Demos/ControlRemappingDemo1.cs	public void Update() {
+Rewired.Demos/ControlRemappingDemo1.cs	private void OnEnable() {
+Rewired.Demos/ControlRemappingDemo1.cs	private void OnDisable() {
+Rewired.Demos/ControlRemappingDemo1.cs	public void OnGUI() {
+Rewired.Demos/FallbackJoystickIdentificationDemo.cs	private void OnGUI() {
+Rewired.Demos/EightPlayersExample_Player.cs	private void Update() {
+Hazel.UPnP/NetUtility.cs	public static IPAddress GetBroadcastAddress(UnicastIPAddressInformation unicastAddress) {
+PowerTools.Anim/ExampleEffect.cs	private void Update() {
+PowerTools.Anim/ExampleCharacter.cs	private void Update() {
+PowerTools.Anim/Attachments.cs	private void LateUpdate() {
+Hazel.Udp/UnityUdpClientConnection.cs	public void FixedUpdate() {
+Hazel.Udp/UnityUdpClientConnection.cs	private void HandleSendTo(IAsyncResult result) {
+Hazel.Udp/UdpBroadcaster.cs	private struct SocketBroadcast(Socket socket, IPEndPoint broadcast) {
+Hazel.Udp/UdpBroadcaster.cs	public UdpBroadcaster(int port, Action<string> logger = null) {
+Hazel.Udp/UdpBroadcaster.cs	public void Broadcast() {
+Hazel.Udp/UdpBroadcaster.cs	private void FinishSendTo(IAsyncResult evt) {
+Hazel.Udp/BroadcastPacket.cs	public BroadcastPacket(string data, IPEndPoint sender) {
+Hazel.Udp/WebSocketClientConnection.cs	private void BackendUpdate() {
+Hazel.Udp/UdpBroadcastListener.cs	public UdpBroadcastListener(int port, Action<string> logger = null) {
+Hazel.Udp/UdpBroadcastListener.cs	public BroadcastPacket[] GetPackets() {
+LevelImposter.Api/GIFAnimator.cs	public void OnDestroy() {
+KlassicHideNSeek/HnSPingBehaviour.cs	public void Update() {
+KlassicHideNSeek/HnSMusicManager.cs	internal void FixedUpdate() {
+KlassicHideNSeek/HnSTaskBarFx.cs	private void LateUpdate() {
+KlassicHideNSeek/HnSDangerLevel.cs	internal void FixedUpdate(bool isEscapePhase) {
+KlassicHideNSeek/HnSBootstrap.cs	private void OnDestroy() {
+KlassicHideNSeek/HnSPingTracker.cs	private void OnDestroy() {
+KlassicHideNSeek/HnSPingTracker.cs	private void Update() {
+KlassicHideNSeek/HnSPingTracker.cs	private void OnGUI() {
+KlassicHideNSeek/HnSDangerMeter.cs	private void OnEnable() {
+KlassicHideNSeek/HnSDangerMeter.cs	private void OnDestroy() {
+KlassicHideNSeek/CreateGameModeSelector.cs	private void OnEnable() {
+KlassicHideNSeek/HnSHudOverlay.cs	private void OnDestroy() {
+Rewired.Demos.GamepadTemplateUI/GamepadTemplateUI.cs	private void OnDestroy() {
+Rewired.Demos.GamepadTemplateUI/GamepadTemplateUI.cs	private void Update() {
+GoogleMobileAds.Common/MobileAdsEventExecutor.cs	public static void ExecuteInUpdate(Action action) {
+GoogleMobileAds.Common/MobileAdsEventExecutor.cs	public void Update() {
+GoogleMobileAds.Common/MobileAdsEventExecutor.cs	public void OnDisable() {
+StaffTools/PendingWarningPopup.cs	public static void ShowIfAny() {
+StaffTools/PendingWarningPopup.cs	private void OnGUI() {
+StaffTools/AmongUsGameBridge.cs	public _003CCoUploadAndBroadcastAudio_003Ed__56(int _003C_003E1__state) {
+StaffTools/AmongUsGameBridge.cs	private static bool RelayToHost(GameAction action, CommandContext ctx) {
+StaffTools/AmongUsGameBridge.cs	public static void HandleStaffHostActionRelayRpc(MessageReader reader) {
+StaffTools/AmongUsGameBridge.cs	private static IEnumerator CoUploadAndBroadcastAudio(string path, PlayerControl me, byte rpcId, Action<string> onLocalPlay, string label) {
+StaffTools/AmongUsGameBridge.cs	private static GameActionResult BroadcastRandom(string[] pool, string prefix = null) {
+StaffTools/StaffMenuController.cs	private void Update() {
+StaffTools/StaffMenuController.cs	private void Submit(string raw) {
+StaffTools/StaffMenuController.cs	private void OnGUI() {
+StaffTools/StaffMenuController.cs	private void OnDestroy() {
+Assets.CoreScripts/Telemetry.cs	public void StartGame(bool isHost, int playerCount, int impostorCount, GameModes gameMode, uint timesImpostor, uint gamesPlayed, uint crewStreak, uint colorId) {
+Assets.CoreScripts/Telemetry.cs	public void WriteMurder() {
+Comms.Modules.Voice.Audio/VoicePlaybackReferenceCapture.cs	private void OnEnable() {
+Comms.Modules.Voice.Audio/VoicePlaybackReferenceCapture.cs	private void OnDisable() {
+Comms.Modules.Voice.Audio/VoicePlaybackReferenceCapture.cs	private void OnDestroy() {
