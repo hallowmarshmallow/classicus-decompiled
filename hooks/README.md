@@ -49,6 +49,11 @@ The security-relevant questions here are:
 - whether the action is host-only or peer-triggerable
 - whether the action changes shared state or only local state
 
+For the deeper map of the role-ability layer and the surrounding room-state hooks, see:
+
+- hooks/role_ability_dispatch.md
+- hooks/inroom_authority_hooks.md
+
 ## Why the map matters
 
 A lot of the exploit surface comes from a mismatch between “this action is powerful” and
