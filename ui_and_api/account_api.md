@@ -71,6 +71,33 @@ easier even before any write exploitation.
 - Authenticate every write endpoint properly; do not rely on rate limiting alone.
 - Decide what is public and what is not, and restrict the public surface accordingly.
 
+## Live-server verified behavior (deprecated server, own test accounts only)
+
+Verified against 178.156.171.131 (22030 = account API, 22023 = game server):
+
+- POST /account/register {device, name, pass, email} creates an account and
+  returns an unexpired token. Registering AGAIN with the same device but a NEW
+  email silently rewrites the account's recovery email - no verification of the
+  old email, same account id.
+- POST /account/auto {device} returns the account (with masked email, e.g.
+  pe*******************@proton.me) - the device value alone identifies the account.
+- POST /account/forgot {email} sends a NEW password to that email (client string:
+  "Password sent to your email! Put the new password above and Log In.").
+  Per-IP rate limit exists ("Too many password emails requested. Try again later.").
+- POST /account/login requires device; email+password alone returns "Missing device."
+- GET /account/leaderboard?page=N (no auth): top 100 accounts with raw internal
+  ids, score, tasks, games, wins, country, bestSeconds, per page. Page 16 returns
+  page 14 (clamped at 15 pages / 100 entries).
+- GET /account/profile?id=<raw id> (no auth): full stats, views, likes, streak,
+  hnsHiderWins/hnsSeekerWins, runner stats, base64 stats blob.
+- GET /api/lobbies on 22023 (no auth): every public lobby with code, host name,
+  map id/name, game mode id, impostor count, player counts, proximityChat flag.
+- /lobby-music/upload?hwid= on 22023: 401 without staff creds.
+
+Combined chain: leaderboard gives raw account ids; register-device-overwrite plus
+forgot-email-new-password gives permanent takeover for any device id you can obtain
+or compute (HWID is a deterministic SHA256 of machine data - see audit_scratch).
+
 ## Live-server note
 
 Some of the strongest conclusions here depend on how the server actually behaves, not
